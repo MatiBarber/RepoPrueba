@@ -3,22 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Estilos/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
         <title>Portfolio web</title>
     </head>
     <body>
         <header>
-            <h1>Matias Barbieri</h1>
-            <h2>Ingeniero en Sistemas de Información</h2>
-            <img src="Imagenes/Foto de perfil.jpg" alt="Perfil">
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="aboutme.html">Sobre mi</a>
-                <a href="experience.html">Experiencia laboral</a>
-                <a href="contactme.html">Contactarme</a>
-            </nav>
+            <div class="contenedor">
+                <img src="Imagenes/Foto de perfil.jpg" alt="Perfil" class="perfil">
+                <div class="contenedor-Contenedor">
+                    <h1>Matias Barbieri</h1>
+                    <h2 class="profesion">Ingeniero en Sistemas de Información</h2>
+                </div>
+            </div>
         </header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="aboutme.html">Sobre mi</a>
+            <a href="experience.html">Experiencia laboral</a>
+            <a href="contactme.html">Contactarme</a>
+        </nav>
 
-        <section>
+        <section class="seccionA ajustarLetra primerSeccion">
             <p>¡Hola! Bienvenido a mi portfolio web. Acá podrá conocer un poco acerca de mi, mis pasatiempos, mi formación, y mi recorrido en el ámbito laboral. Espero le resulte interesante y que estemos en contacto en un futuro.</p>
         </section>
 

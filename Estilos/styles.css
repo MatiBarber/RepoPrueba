@@ -1,0 +1,160 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+}
+
+header{
+    background-image: url("../Imagenes/Portada.jpg");
+    background-size: content;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    position: relative;
+    bottom: -70px;
+}
+
+.profesion {
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    bottom: -30px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-Contenedor {
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+nav {
+    background-color: #00f;
+    text-align: center;
+    margin-left: 40px;
+}
+
+nav > a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.perfil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    position: relative;
+    bottom: -100px;
+}
+
+section {
+    padding: 30px;
+}
+
+.primerSeccion {
+    padding-top: 50px;
+}
+
+.secccionA {
+    background-color: #fff;
+}
+
+.ajustarLetra {
+    font-size: 40px;
+}
+
+.seccionB {
+    background-color: #eee;
+}
+
+.redes {
+    display: flex;
+    padding-left: 30px;
+}
+
+a > img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.red {
+    margin-left: 20px;
+}
+
+.label1 {
+    grid-area: label1;
+}
+.label2 {
+    grid-area: label2;
+}
+.label3 {
+    grid-area: label3;
+}
+.label4 {
+    grid-area: label4;
+}
+.itemForm1 {
+    grid-area: itemForm1;
+}
+.itemForm2 {
+    grid-area: itemForm2;
+}
+.itemForm3 {
+    grid-area: itemForm3;
+}
+.itemForm4 {
+    grid-area: itemForm4;
+}
+
+.Enviar {
+    grid-area: enviar;
+    width: 70px;
+    position: relative;
+    left: 140px;
+}
+
+form {
+    display: grid;
+    width: 400px;
+    grid-template-areas: 
+    'label1 itemForm1' 
+    'label2 itemForm2' 
+    'label3 itemForm3' 
+    'label4 itemForm4' 
+    'enviar enviar';
+    position: relative;
+    left: 300px;
+}
+label{
+    margin: 10px;
+}
+input {
+    width: 300px;
+    margin: 10px;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+}
+
+footer {
+    padding: 5px 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 8px;
+    text-align: right;
+}
